@@ -45,6 +45,12 @@
     text-align: center;
     padding-bottom: 10%;
 }
+@media screen and (max-width: 1000px){
+    .quality_content {
+    text-align: center;
+    padding-bottom: 30%;
+}
+} 
 .quality_content p {
     color: #000;
     font-weight: bold;

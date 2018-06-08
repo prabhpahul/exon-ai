@@ -2,7 +2,7 @@
 
   // Back to top button
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 10) {
       $('.back-to-top').fadeIn('slow');
     } else {
       $('.back-to-top').fadeOut('slow');
@@ -35,7 +35,7 @@
 
     $.mbBgndGallery.buildGallery({
       containment: "#intro",
-      timer: 3000,
+      timer: 10000,
       effTimer: 1000,
       controls: "#controls",
       grayScale: false,
@@ -82,11 +82,11 @@
   // featured text
   $("#rotator .1strotate").textrotator({
     animation: "dissolve",
-    speed: 4000
+    speed: 10000
   });
   $("#rotator .2ndrotate").textrotator({
     animation: "dissolve",
-    speed: 4000
+    speed: 10000
   });
 
   //iphone carousel animation

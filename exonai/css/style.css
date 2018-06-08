@@ -177,7 +177,7 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
+	color: black;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -386,7 +386,16 @@ Parallax
 #parallax2{
 	background-image: url(../img/parallax/2.jpg);
 }
-
+.image-logo-header 
+{
+	height: 50px;
+	display: block;
+}
+.image-logo-header-phone 
+{
+	height: 50px;
+	display: none;
+}
 
 /* ================================
 Intro
@@ -427,7 +436,9 @@ Intro
 	text-transform: uppercase;
 
 }
-
+.anchorList{
+	color: black;
+}
 .line-spacer {
 	width: 20%;
 	margin:0 auto;
@@ -466,6 +477,13 @@ About
 }
 
 @media (max-width: 768px) {
+	.image-logo-header{
+		display: none;
+	}
+	.image-logo-header-phone{
+		display: block;
+		height:30px;
+	}
   #about .about-img {
     height: auto;
   }
@@ -721,6 +739,10 @@ Works
 	animation: loader 0.5s infinite ease-in-out both;
 }
 
+.logo {
+    margin-right: 20px;
+    float: left;
+}
 @-webkit-keyframes loader {
 	0% { background: #ddd; }
 	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
@@ -843,7 +865,7 @@ Footer
 footer {
 	background: #707B7C;
 	color: #fff;
-	padding: 50px 0 30px;
+	padding: 20px 0 10px;
 }
 
 footer a {
